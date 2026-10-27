@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>拳皇·数学格斗（双人对战）</title>
+<link rel="stylesheet" href="https://miaoda.feishu.cn/fonts/css2?family=Press+Start+2P&family=ZCOOL+KuaiLe&family=Noto+Sans+SC:wght@400;700;900&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app" class="no-select">
+
+  <!-- ===== 标题界面 ===== -->
+  <section id="screen-title" class="screen active">
+    <div class="title-bg"></div>
+    <div class="title-glow"></div>
+    <div class="title-box">
+      <div class="title-kicker">THE KING OF MATH</div>
+      <h1 class="game-title">拳皇·数学格斗</h1>
+      <p class="game-sub">双人同屏 · 答题放招 · 小学数学格斗对战</p>
+      <div class="title-menu">
+        <button class="menu-btn primary" id="btnStart" type="button">开始游戏</button>
+        <button class="menu-btn" id="btnHow" type="button">玩法说明</button>
+      </div>
+      <div class="best-score">最佳答题纪录 <span id="bestScore">0</span> 题</div>
+      <div class="title-credit">两名玩家 · 一块键盘 · 用数学决一胜负</div>
+    </div>
+  </section>
+
+  <!-- ===== 战斗界面（含选角） ===== -->
+  <section id="screen-battle" class="screen">
+    <header class="topbar">
+      <button class="top-exit" id="btnBattleExit" type="button">主菜单</button>
+      <div class="top-logo">拳皇·数学格斗 <span class="top-logo-en">2P BATTLE</span></div>
+      <button class="settings-btn" id="btnSettingsBattle" type="button">设置</button>
+    </header>
+
+    <div class="mid">
+      <!-- 玩家1 侧栏：选角 + 题目 + 键盘 -->
+      <div class="side p1">
+        <div class="roster-panel" id="rosterP1"></div>
+        <div class="question-panel">
+          <div class="q-top">
+            <span class="q-label">玩家1 · 题目</span>
+            <div class="q-timer"><div class="timer-track"><div class="timer-fill" id="p1TimerFill"></div></div><span class="timer-num" id="p1TimerNum"></span></div>
+          </div>
+          <div class="q-row">
+            <div class="q-text" id="p1QText">请选择英雄</div>
+            <div class="q-input" id="p1QInput">…</div>
+          </div>
+          <div class="q-vertical" id="p1VArea"></div>
+          <div class="q-hint" id="p1Hint">方向键选人 · 确认键锁定</div>
+        </div>
+        <div class="keypad" id="keypadP1"></div>
+      </div>
+
+      <!-- 舞台 -->
+      <div class="stage-wrap">
+        <div class="stage" id="stage">
+          <img class="stage-bg" src="assets/bg/bg_stage.jpg" alt="">
+          <div class="stage-vignette"></div>
+          <div class="stage-top">
+            <div class="corner c-p1">
+              <img class="mini-avatar" id="p1Avatar" alt="">
+              <div class="corner-info">
+                <div class="c-name" id="p1Name">—</div>
+                <div class="hp-wrap">
+                  <div class="hp-track"><div class="hp-fill" id="p1HpFill"></div></div>
+                  <span class="hp-num" id="p1HpNum">100</span>
+                </div>
+                <div class="powbar" id="p1Pow"><i></i><i></i><i></i><i></i><i></i></div>
+              </div>
+            </div>
+            <div class="stage-center">
+              <div class="round-label" id="roundLabel">选择英雄</div>
+              <div class="vs-label">VS</div>
+            </div>
+            <div class="corner c-p2">
+              <div class="corner-info">
+                <div class="c-name" id="p2Name">—</div>
+                <div class="hp-wrap">
+                  <div class="hp-track"><div class="hp-fill" id="p2HpFill"></div></div>
+                  <span class="hp-num" id="p2HpNum">100</span>
+                </div>
+                <div class="powbar" id="p2Pow"><i></i><i></i><i></i><i></i><i></i></div>
+              </div>
+              <img class="mini-avatar" id="p2Avatar" alt="">
+            </div>
+          </div>
+          <canvas id="stageCanvas"></canvas>
+          <div class="stage-fx" id="stageFx"></div>
+          <div class="announce" id="announce"></div>
+        </div>
+      </div>
+
+      <!-- 玩家2 侧栏：选角 + 题目 + 键盘 -->
+      <div class="side p2">
+        <div class="roster-panel" id="rosterP2"></div>
+        <div class="question-panel">
+          <div class="q-top">
+            <span class="q-label">玩家2 · 题目</span>
+            <div class="q-timer"><div class="timer-track"><div class="timer-fill" id="p2TimerFill"></div></div><span class="timer-num" id="p2TimerNum"></span></div>
+          </div>
+          <div class="q-row">
+            <div class="q-text" id="p2QText">请选择英雄</div>
+            <div class="q-input" id="p2QInput">…</div>
+          </div>
+          <div class="q-vertical" id="p2VArea"></div>
+          <div class="q-hint" id="p2Hint">方向键选人 · 确认键锁定</div>
+        </div>
+        <div class="keypad" id="keypadP2"></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- ===== 设置弹窗 ===== -->
+<div class="modal" id="modalSettings" aria-hidden="true">
+  <div class="modal-card">
+    <div class="modal-title">设置</div>
+    <div class="setting-row">
+      <span class="setting-label">难度（题目）</span>
+      <div class="seg" id="segDifficulty">
+        <button class="seg-btn" data-diff="1" type="button">简单</button>
+        <button class="seg-btn" data-diff="2" type="button">普通</button>
+        <button class="seg-btn" data-diff="3" type="button">困难</button>
+      </div>
+    </div>
+    <div class="setting-row">
+      <span class="setting-label">出题模式</span>
+      <div class="seg" id="segMode">
+        <button class="seg-btn" data-mode="horizontal" type="button">横式</button>
+        <button class="seg-btn" data-mode="vertical" type="button">竖式</button>
+      </div>
+    </div>
+    <div class="setting-row">
+      <span class="setting-label">数字0限制</span>
+      <div class="seg" id="segZero">
+        <button class="seg-btn" data-zero="allow" type="button">允许0</button>
+        <button class="seg-btn" data-zero="disallow" type="button">禁用0</button>
+      </div>
+    </div>
+    <div class="setting-row">
+      <span class="setting-label">音效</span>
+      <button class="toggle" id="toggleSound" type="button"><span class="knob"></span></button>
+    </div>
+    <div class="setting-row">
+      <span class="setting-label">回合倒计时</span>
+      <input type="number" class="time-input" id="timeInput" min="5" max="60" step="1" value="15" aria-label="回合倒计时秒数">
+      <span class="time-input-unit">秒</span>
+    </div>
+    <div class="setting-row">
+      <span class="setting-label">连击段位（普通/强化/超必杀）</span>
+      <input type="number" class="time-input" id="comboInput1" min="1" max="30" step="1" value="1" aria-label="普通段位连击数">
+      <span class="time-input-unit">/</span>
+      <input type="number" class="time-input" id="comboInput2" min="1" max="30" step="1" value="3" aria-label="强化段位连击数">
+      <span class="time-input-unit">/</span>
+      <input type="number" class="time-input" id="comboInput3" min="1" max="30" step="1" value="8" aria-label="超必杀段位连击数">
+    </div>
+    <p class="about-note">角色素材：草薙京（KOF2002）贴图来自 Sprite Database 公开像素素材，仅供个人/教学非商用使用，版权归原公司所有。</p>
+    <div class="modal-actions">
+      <button class="menu-btn primary" id="btnSettingsClose" type="button">确定</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 玩法说明弹窗 ===== -->
+<div class="modal" id="modalHow" aria-hidden="true">
+  <div class="modal-card">
+    <div class="modal-title">玩法说明</div>
+    <ul class="how-list">
+      <li>两名玩家<b>同屏对战</b>：进入战斗页后，先各自用<b>方向键 + 确认英雄</b>选好角色。</li>
+      <li>双方都确认后<b>自动开战</b>，键盘切换为数字键盘，每回合各出一道小学数学题。</li>
+      <li>答题结果在<b>倒计时归零时统一结算</b>：<b>先答对</b> → 冲向对手出招；<b>后答对</b> → 原地防御（只受少量伤害）；<b>双方几乎同时答对</b> → 招式在舞台中间碰撞；<b>答错或超时</b> → 无法防御，吃满伤害。</li>
+      <li>连续答对累积 <b>COMBO</b>，达到段位触发不同招式（设置可调，默认<b>普通 1 连 / 强化 3 连 / 超必杀 8 连</b>）；答错连击清零。累计答对 <b>10 次</b>还可触发能量槽<b>超必杀</b>！</li>
+      <li>先把对方体力打空的一方获胜。快、准、狠！</li>
+    </ul>
+    <div class="modal-actions">
+      <button class="menu-btn primary" id="btnHowClose" type="button">知道了</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===== 结算弹窗 ===== -->
+<div class="modal" id="modalResult" aria-hidden="true">
+  <div class="modal-card result">
+    <div class="result-emblem" id="resultEmblem">胜</div>
+    <div class="result-title" id="resultTitle">玩家1 获胜！</div>
+    <div class="result-sub" id="resultKo">K.O.！</div>
+    <div class="result-stats">
+      <div class="stat"><span class="stat-num" id="r1Correct">0</span><span class="stat-label">玩家1答对</span></div>
+      <div class="stat"><span class="stat-num" id="r2Correct">0</span><span class="stat-label">玩家2答对</span></div>
+      <div class="stat"><span class="stat-num" id="r1Combo">0</span><span class="stat-label">玩家1连击</span></div>
+      <div class="stat"><span class="stat-num" id="r2Combo">0</span><span class="stat-label">玩家2连击</span></div>
+    </div>
+    <div class="result-combo-line" id="rBestLine"></div>
+    <div class="modal-actions result-actions">
+      <button class="menu-btn" id="btnResultSelect" type="button">重新选角</button>
+      <button class="menu-btn primary" id="btnResultAgain" type="button">再来一局</button>
+    </div>
+  </div>
+</div>
+
+<script src="game.js?v=32"></script>
+</body>
+</html>

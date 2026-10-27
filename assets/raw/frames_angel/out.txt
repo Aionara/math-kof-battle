@@ -1,0 +1,177 @@
+﻿rows: 176
+row 00 h=   8 frames=20 sizes=6x7,4x5,4x6,4x5,3x5,2x6,1x7,4x5,2x5,3x5,4x5,4x7
+row 01 h=   9 frames= 1 sizes=314x8
+row 02 h= 112 frames=14 sizes=48x109,58x110,65x110,78x111,77x111,74x111,73x111,73x111,73x111,73x111,77x111,64x110
+row 03 h= 112 frames=17 sizes=46x108,46x109,49x109,53x111,50x108,49x108,50x108,53x111,49x109,46x109,46x108,44x103
+row 04 h=   8 frames=20 sizes=6x7,4x5,4x6,4x5,3x5,2x6,1x7,4x5,2x5,3x5,4x5,4x7
+row 05 h=   2 frames= 1 sizes=247x2
+row 06 h= 112 frames=22 sizes=47x110,46x110,44x111,49x111,52x110,50x110,50x110,50x110,50x110,50x110,50x110,50x110
+row 07 h= 117 frames=15 sizes=2x8,72x115,72x115,72x115,72x115,72x115,72x115,1x8,71x108,42x103,37x100,45x116
+row 08 h= 109 frames=12 sizes=46x108,47x108,48x108,48x107,44x107,43x107,43x107,42x108,50x98,65x78,69x67,71x65
+row 09 h= 109 frames=13 sizes=73x103,72x103,63x104,53x106,53x106,59x105,62x104,1x1,64x104,57x105,52x107,62x106
+row 10 h= 216 frames= 6 sizes=69x210,1111x215,46x108,65x78,63x98,46x108
+row 11 h= 128 frames=15 sizes=50x98,65x78,35x127,43x108,67x84,72x73,76x69,78x77,2x2,76x85,65x96,69x94
+row 12 h= 115 frames=16 sizes=50x98,65x78,63x114,68x110,69x93,68x84,56x71,1x1,49x72,59x84,67x96,73x111
+row 13 h= 118 frames=17 sizes=50x98,65x78,59x117,75x93,76x67,60x42,53x54,79x91,81x98,81x100,80x92,94x60
+row 14 h= 109 frames=19 sizes=65x78,99x71,3x3,94x84,56x85,70x63,77x66,65x78,50x98,57x103,46x108,65x78
+row 15 h= 109 frames=18 sizes=54x105,58x102,58x102,63x102,61x99,92x97,89x97,89x97,74x99,58x104,45x106,44x108
+row 16 h= 109 frames=17 sizes=47x108,68x108,66x108,47x108,46x108,43x102,77x95,89x89,90x88,107x87,94x82,93x83
+row 17 h= 110 frames=20 sizes=32x104,75x104,76x103,67x104,35x104,40x105,46x108,55x101,53x100,56x99,92x102,82x103
+row 18 h= 109 frames=14 sizes=51x103,57x87,57x88,57x94,56x95,66x98,60x100,59x101,58x100,59x99,47x103,41x106
+row 19 h= 118 frames=12 sizes=57x117,1x1,61x110,52x104,50x104,51x105,50x105,52x104,38x104,34x106,44x108,46x108
+row 20 h= 110 frames=14 sizes=54x104,61x97,58x96,58x94,93x94,104x90,109x93,61x97,59x97,52x100,53x105,45x107
+row 21 h=  66 frames=13 sizes=69x64,70x62,92x61,91x61,70x62,69x64,71x65,80x54,110x51,99x51,99x51,74x60
+row 22 h= 126 frames=16 sizes=69x70,71x66,76x75,82x88,60x118,39x121,38x122,46x125,57x122,81x109,68x107,43x105
+row 23 h=  67 frames=12 sizes=63x66,48x65,66x61,69x63,115x63,107x64,105x63,95x58,73x51,74x53,71x64,71x65
+row 24 h= 104 frames=14 sizes=57x103,70x79,2x8,72x86,72x86,1x8,76x73,72x93,81x88,83x75,87x91,85x89
+row 25 h= 117 frames=14 sizes=51x68,65x86,153x90,51x68,65x75,49x63,47x64,118x95,106x86,50x83,49x72,51x111
+row 26 h=   8 frames=14 sizes=5x7,2x5,3x5,7x5,4x5,4x5,1x7,2x7,8x7,1x7,4x5,4x5
+row 27 h= 115 frames=22 sizes=55x99,69x99,85x99,96x83,3x7,102x65,2x2,141x65,2x2,182x65,2x50,2x44
+row 28 h= 112 frames=11 sizes=80x82,80x82,70x82,59x64,58x50,69x67,65x78,50x98,46x108,64x62,71x73
+row 29 h=   8 frames=14 sizes=5x7,2x5,3x5,7x5,4x5,4x5,1x7,2x7,8x7,1x7,4x5,4x5
+row 30 h= 117 frames=20 sizes=60x107,60x107,81x105,1x1,328x116,81x105,1x1,58x104,61x104,1x1,59x115,1x1
+row 31 h= 113 frames= 8 sizes=51x91,50x98,46x108,23x15,1x1,25x15,25x15,36x55
+row 32 h=   8 frames=24 sizes=5x7,4x5,4x5,2x7,2x5,3x5,1x7,4x5,6x7,1x7,2x5,4x5
+row 33 h= 112 frames=16 sizes=49x110,63x111,62x111,60x111,56x105,59x101,2x21,56x98,66x97,2x8,64x104,63x104
+row 34 h=   8 frames= 7 sizes=5x7,2x7,2x7,4x5,4x5,2x6,4x5
+row 35 h= 125 frames= 1 sizes=1312x124
+row 36 h=   8 frames=14 sizes=5x7,2x5,3x5,7x5,4x5,4x5,1x7,2x7,8x7,1x7,4x5,4x5
+row 37 h= 115 frames=18 sizes=50x105,42x103,55x87,2x8,82x89,107x89,101x89,94x89,73x89,82x89,106x89,103x89
+row 38 h= 110 frames=36 sizes=2x5,2x9,2x13,2x18,103x68,2x2,2x2,2x2,2x2,2x14,2x14,105x78
+row 39 h= 109 frames=18 sizes=54x104,61x97,53x95,45x91,48x89,92x103,97x103,99x101,101x104,109x102,76x96,77x97
+row 40 h= 109 frames=14 sizes=42x107,39x108,47x108,59x105,69x95,71x99,61x98,68x96,77x96,73x97,54x100,48x102
+row 41 h= 136 frames=19 sizes=48x102,51x102,63x112,64x119,50x129,47x135,56x134,76x126,98x111,95x107,92x106,70x104
+row 42 h= 136 frames=17 sizes=53x135,4x5,6x7,58x135,5x5,4x5,59x133,70x94,75x102,1x2,67x134,65x124
+row 43 h= 109 frames=11 sizes=33x103,37x101,60x98,92x107,91x107,78x99,64x101,52x105,49x106,44x108,46x108
+row 44 h= 109 frames=13 sizes=54x105,58x102,58x102,63x102,61x99,73x95,75x91,76x88,76x88,68x93,58x104,45x106
+row 45 h= 237 frames= 6 sizes=78x206,755x235,69x67,50x98,46x108,81x104
+row 46 h= 115 frames=18 sizes=50x98,65x78,63x114,68x110,69x93,49x72,59x84,67x96,40x90,118x74,110x72,2x2
+row 47 h= 121 frames=17 sizes=5x7,62x120,4x5,1x7,64x120,65x71,67x87,50x106,61x116,52x117,40x103,40x102
+row 48 h= 114 frames=23 sizes=50x101,56x103,47x106,46x108,57x111,59x113,60x110,63x94,81x86,96x88,63x88,58x87
+row 49 h= 119 frames=17 sizes=58x106,59x111,62x110,54x106,80x74,84x100,79x100,149x63,104x105,65x118,94x104,103x78
+row 50 h= 133 frames=15 sizes=65x78,57x90,54x75,87x77,101x82,278x123,101x82,85x90,80x74,33x92,32x127,37x132
+row 51 h= 123 frames=18 sizes=114x121,124x122,65x96,21x20,79x91,81x100,80x92,94x60,111x39,2x2,103x68,74x102
+row 52 h= 110 frames= 4 sizes=42x108,35x108,42x108,46x108
+row 53 h= 126 frames=24 sizes=44x105,68x100,66x101,2x8,53x115,60x115,61x115,42x124,5x8,39x124,38x115,38x115
+row 54 h= 109 frames=18 sizes=75x93,77x67,2x4,59x42,53x54,80x91,81x98,80x100,80x92,94x60,111x39,104x68
+row 55 h=   8 frames=14 sizes=5x7,2x5,3x5,7x5,4x5,4x5,1x7,2x7,8x7,1x7,4x5,4x5
+row 56 h= 115 frames=18 sizes=50x105,42x103,55x87,2x8,82x89,107x89,101x89,94x89,73x89,82x89,106x89,103x89
+row 57 h= 110 frames=36 sizes=2x5,2x9,2x13,2x18,103x68,2x2,2x2,2x2,2x2,2x14,2x14,105x78
+row 58 h= 109 frames= 9 sizes=52x107,59x107,60x106,38x103,37x106,37x105,37x107,42x108,46x108
+row 59 h= 206 frames=49 sizes=37x184,1x7,39x184,4x7,5x5,62x184,1x7,4x7,71x184,3x2,6x2,99x183
+row 60 h=   2 frames= 1 sizes=2x2
+row 61 h=   2 frames= 1 sizes=2x2
+row 62 h=   3 frames= 2 sizes=1x1,1x1
+row 63 h=   2 frames= 1 sizes=2x2
+row 64 h=   2 frames= 1 sizes=2x2
+row 65 h=   2 frames= 1 sizes=2x2
+row 66 h=   2 frames= 1 sizes=2x2
+row 67 h=   2 frames= 1 sizes=2x2
+row 68 h=   2 frames= 1 sizes=2x2
+row 69 h=   2 frames= 1 sizes=2x2
+row 70 h=   2 frames= 1 sizes=2x2
+row 71 h=   2 frames= 1 sizes=2x2
+row 72 h=   2 frames= 1 sizes=2x2
+row 73 h=   2 frames= 1 sizes=2x2
+row 74 h=   2 frames= 1 sizes=2x2
+row 75 h=   2 frames= 1 sizes=2x2
+row 76 h=   2 frames= 1 sizes=2x2
+row 77 h=   3 frames= 2 sizes=1x1,1x1
+row 78 h=   2 frames= 1 sizes=2x2
+row 79 h=   2 frames= 1 sizes=2x2
+row 80 h=   2 frames= 1 sizes=2x2
+row 81 h=   2 frames= 1 sizes=2x2
+row 82 h=   2 frames= 1 sizes=2x2
+row 83 h=   2 frames= 1 sizes=1x1
+row 84 h=   2 frames= 1 sizes=1x1
+row 85 h=   2 frames= 1 sizes=2x2
+row 86 h=   9 frames=15 sizes=2x2,5x7,2x5,3x5,7x5,4x5,4x5,1x7,2x7,8x7,1x7,4x5
+row 87 h= 115 frames=15 sizes=106x111,2x8,107x89,101x89,94x89,73x89,82x89,106x89,103x89,94x89,75x89,82x89
+row 88 h= 109 frames=20 sizes=68x108,66x108,47x108,54x105,58x102,58x102,63x102,61x99,73x95,75x91,76x88,76x88
+row 89 h= 134 frames=23 sizes=47x103,41x106,49x110,63x111,62x111,60x111,56x105,59x101,2x21,56x98,66x97,62x97
+row 90 h= 113 frames=17 sizes=58x112,53x102,58x102,63x102,61x99,89x97,89x97,92x97,74x99,44x108,50x98,65x78
+row 91 h= 118 frames=17 sizes=78x59,63x60,71x65,61x65,60x72,65x71,67x87,50x106,61x116,52x117,40x103,40x102
+row 92 h= 206 frames=47 sizes=36x199,10x81,45x199,66x199,1x7,73x199,2x9,3x2,6x2,99x183,2x41,2x2
+row 93 h=   2 frames= 1 sizes=1x1
+row 94 h=   2 frames= 1 sizes=2x2
+row 95 h=   2 frames= 1 sizes=2x2
+row 96 h=   2 frames= 1 sizes=2x2
+row 97 h=   2 frames= 1 sizes=2x2
+row 98 h=   2 frames= 1 sizes=2x2
+row 99 h=   2 frames= 1 sizes=2x2
+row 100 h=   2 frames= 1 sizes=2x2
+row 101 h=   2 frames= 1 sizes=2x2
+row 102 h=   2 frames= 1 sizes=2x2
+row 103 h=   2 frames= 1 sizes=2x2
+row 104 h=   2 frames= 1 sizes=2x2
+row 105 h=   3 frames= 2 sizes=1x1,1x1
+row 106 h=   2 frames= 1 sizes=2x2
+row 107 h=   2 frames= 1 sizes=2x2
+row 108 h=   2 frames= 1 sizes=2x2
+row 109 h=   2 frames= 1 sizes=2x2
+row 110 h=   2 frames= 1 sizes=2x2
+row 111 h=   2 frames= 1 sizes=2x2
+row 112 h=   2 frames= 1 sizes=2x2
+row 113 h=   2 frames= 1 sizes=2x2
+row 114 h=   2 frames= 1 sizes=2x2
+row 115 h=   2 frames= 1 sizes=2x2
+row 116 h=   2 frames= 1 sizes=2x2
+row 117 h=   2 frames= 1 sizes=2x2
+row 118 h=   2 frames= 1 sizes=2x2
+row 119 h=  10 frames=27 sizes=2x2,1x1,1x1,2x1,5x7,2x5,2x5,1x4,2x5,2x5,1x4,2x5
+row 120 h= 115 frames=15 sizes=106x111,2x8,107x89,101x89,94x89,73x89,82x89,106x89,103x89,94x89,75x89,82x89
+row 121 h= 136 frames=20 sizes=77x96,73x97,54x100,51x102,63x112,64x119,50x129,47x135,56x134,98x111,95x107,92x106
+row 122 h= 107 frames=18 sizes=78x99,64x101,52x105,49x106,35x94,40x90,118x74,110x72,2x2,105x72,82x74,63x66
+row 123 h=   2 frames= 1 sizes=1x1
+row 124 h= 117 frames=21 sizes=95x58,73x51,74x53,48x116,58x116,61x110,52x104,51x104,50x105,50x105,52x104,38x104
+row 125 h= 128 frames=30 sizes=68x94,61x95,41x106,44x108,54x104,61x97,58x94,104x90,109x93,61x97,59x97,52x100
+row 126 h= 119 frames=18 sizes=53x101,65x113,65x112,65x111,49x105,41x86,37x95,58x106,59x111,62x110,54x106,80x74
+row 127 h= 134 frames=22 sizes=103x78,77x80,67x75,72x72,55x97,44x108,57x88,57x94,56x95,70x94,2x2,74x102
+row 128 h= 111 frames=16 sizes=60x110,62x98,63x94,81x86,96x88,63x88,58x87,46x91,42x91,47x89,68x86,71x83
+row 129 h= 205 frames=56 sizes=46x187,3x5,53x187,4x5,56x186,4x5,51x187,3x7,54x187,4x5,4x5,1x7
+row 130 h=   2 frames= 1 sizes=1x1
+row 131 h=   2 frames= 1 sizes=1x1
+row 132 h=   2 frames= 1 sizes=2x2
+row 133 h=   2 frames= 1 sizes=2x2
+row 134 h=   2 frames= 1 sizes=2x2
+row 135 h=   2 frames= 1 sizes=2x2
+row 136 h=   2 frames= 1 sizes=2x2
+row 137 h=   2 frames= 1 sizes=2x2
+row 138 h=   2 frames= 1 sizes=2x2
+row 139 h=   2 frames= 1 sizes=2x2
+row 140 h=   2 frames= 1 sizes=2x2
+row 141 h=   2 frames= 1 sizes=2x2
+row 142 h=   2 frames= 1 sizes=2x2
+row 143 h=   3 frames= 2 sizes=1x1,1x1
+row 144 h=   2 frames= 1 sizes=2x2
+row 145 h=   2 frames= 1 sizes=2x2
+row 146 h=   2 frames= 1 sizes=2x2
+row 147 h=   2 frames= 1 sizes=2x2
+row 148 h=   2 frames= 1 sizes=2x2
+row 149 h=   2 frames= 1 sizes=2x2
+row 150 h=   2 frames= 1 sizes=2x2
+row 151 h=   2 frames= 1 sizes=2x2
+row 152 h=   9 frames=27 sizes=2x2,2x2,2x2,2x2,5x7,2x5,2x5,1x4,2x5,2x5,1x4,2x5
+row 153 h=   9 frames= 3 sizes=2x2,2x2,246x8
+row 154 h= 111 frames= 8 sizes=49x109,49x108,49x108,53x110,50x109,45x109,1x1,46x108
+row 155 h=  10 frames=52 sizes=5x7,4x5,4x7,4x5,2x5,6x7,4x5,4x5,4x7,4x5,2x5,3x5
+row 156 h= 124 frames=10 sizes=676x123,85x107,1x1,78x118,77x120,88x107,82x103,82x103,84x102,97x99
+row 157 h= 109 frames= 5 sizes=87x95,80x99,50x98,44x108,46x108
+row 158 h=   8 frames=49 sizes=5x7,4x5,4x6,4x5,2x5,6x7,4x5,4x5,4x6,4x5,2x5,3x5
+row 159 h=   2 frames= 5 sizes=1x1,1x1,2x1,1x1,1x1
+row 160 h= 109 frames=12 sizes=52x107,67x105,67x103,70x94,85x83,107x34,106x39,90x47,69x67,64x78,46x108,50x98
+row 161 h= 204 frames=34 sizes=88x177,3x16,82x177,1x17,4x16,2x5,77x177,2x5,1x4,2x5,74x166,3x2
+row 162 h= 197 frames=53 sizes=22x44,4x33,4x31,159x195,135x194,3x2,3x20,3x2,4x27,20x47,4x41,5x45
+row 163 h= 106 frames=52 sizes=55x87,88x57,27x31,105x68,2x13,2x9,2x5,2x2,105x78,2x14,2x14,2x2
+row 164 h= 112 frames=33 sizes=2x2,2x2,2x4,2x8,2x8,2x8,2x7,79x70,2x14,2x13,2x6,5x12
+row 165 h= 109 frames= 8 sizes=72x75,56x85,70x63,77x66,69x67,64x78,50x98,46x108
+row 166 h= 118 frames=24 sizes=62x111,60x111,59x101,66x97,63x96,62x97,47x108,68x108,66x108,47x108,48x117,57x117
+row 167 h= 134 frames=12 sizes=57x94,56x95,70x94,75x102,1x2,67x133,65x124,65x123,58x112,53x102,44x108,46x108
+row 168 h= 128 frames=31 sizes=62x111,60x111,59x101,66x97,63x96,62x97,28x32,87x57,2x6,2x10,2x17,104x68
+row 169 h= 110 frames= 4 sizes=42x108,35x108,42x108,46x108
+row 170 h= 111 frames=20 sizes=46x110,50x109,48x106,54x103,48x106,50x109,46x110,46x108,70x66,69x72,71x72,69x72
+row 171 h= 110 frames=18 sizes=90x84,87x90,61x104,48x107,46x108,93x77,82x79,62x93,45x99,46x108,88x103,89x101
+row 172 h= 109 frames=17 sizes=70x104,52x107,60x101,64x103,96x69,106x51,106x62,103x74,63x82,104x53,113x35,115x30
+row 173 h= 111 frames=12 sizes=53x93,70x83,61x87,107x76,109x63,110x29,117x27,88x62,62x58,55x86,50x98,46x108
+row 174 h= 389 frames= 7 sizes=45x382,309x388,47x387,53x109,204x341,374x341,361x249
+row 175 h= 112 frames=13 sizes=35x108,39x109,36x109,36x111,34x109,46x107,44x108,45x108,55x108,63x109,63x109,64x108

@@ -1,0 +1,17 @@
+﻿== k ==
+  idle  row 00 h=116 frames=17
+  atk   row 07 h=107 frames=11
+  atk2  row 02 h=352 frames=7 sizes=59x344,63x345,66x348,61x349,477x351,161x173,76x90
+  previews saved
+== maxima ==
+python.exe : Traceback (most recent call last):
+所在位置 行:2 字符: 1
++ & $py 'C:\Users\Administrator\Desktop\666\kof-math-battle\assets\raw\ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\Administrator\Desktop\666\kof-math-battle\assets\raw\pick_frames.py", line 39, in <module>
+    print('  idle  row %02d h=%d frames=%d' % (idle_row['row'], idle_row['h'], idle_row['frames']))
+                                               ~~~~~~~~^^^^^^^
+TypeError: 'NoneType' object is not subscriptable

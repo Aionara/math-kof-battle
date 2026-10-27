@@ -1,0 +1,17 @@
+﻿row 0 y 1 161 h 161 gap count 95
+  gaps: [0, 65, 114, 163, 228, 293, 358, 439, 504, 569, 586, 667, 748, 813, 878, 975, 1072, 1153, 1250, 1347, 1412, 1509, 1606, 1703, 1768, 1849, 1850, 1851, 1852, 1853]
+python.exe : Traceback (most recent call last):
+所在位置 行:2 字符: 1
++ & $py 'C:\Users\Administrator\Desktop\666\kof-math-battle\assets\raw\ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\Administrator\Desktop\666\kof-math-battle\assets\raw\slice_rows.py", line 53, in <module>
+    crop.save(outdir + '/row_%02d.png' % idx)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Doubao\User Data\sandbox_runtime\bases\772984f6fd3a8ae0ae7d2422cd7c2bfa\py
+thon\Lib\site-packages\PIL\Image.py", line 2707, in save
+    fp = builtins.open(filename, "w+b")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Administrator\\Desktop\\666\\kof-math-battle\\asset
+s\\raw\\rows/row_00.png'

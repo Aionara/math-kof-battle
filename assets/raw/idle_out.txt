@@ -1,0 +1,48 @@
+﻿total rows: 38
+python.exe : C:\Users\Administrator\Desktop\666\kof-math-battle\assets\raw\find_idle.py:48: DeprecationWarning: Image.I
+mage.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+所在位置 行:2 字符: 1
++ & $py 'C:\Users\Administrator\Desktop\666\kof-math-battle\assets\raw\ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\Users\Admini...d_data instead.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  return list(content.getdata())
+row 00 h=161 n= 8 avgDiff= 38.1 diffs=59,57,44,27,19,23
+row 01 h=113 n= 8 avgDiff= 25.0 diffs=16,20,46,40,11,17
+row 02 h=145 n= 8 avgDiff= 32.9 diffs=49,34,32,25,22,36
+row 03 h=145 n= 8 avgDiff= 28.1 diffs=14,46,46,11,29,23
+row 04 h=129 n= 8 avgDiff= 36.7 diffs=47,32,30,21,34,56
+row 05 h=129 n= 8 avgDiff= 25.3 diffs=21,12,11,24,30,54
+row 06 h=145 n= 8 avgDiff= 23.7 diffs=23,21,12,16,38,32
+row 07 h=129 n= 8 avgDiff= 20.1 diffs=24,39,15,20,8,15
+row 08 h=145 n= 8 avgDiff= 31.6 diffs=32,16,40,48,21,33
+row 09 h=113 n= 8 avgDiff= 32.4 diffs=29,32,22,38,37,37
+row 10 h=145 n= 8 avgDiff= 21.9 diffs=20,28,19,21,13,29
+row 11 h=129 n= 8 avgDiff= 17.6 diffs=0,0,0,0,73,32
+row 12 h=129 n= 8 avgDiff= 30.7 diffs=18,27,25,26,42,46
+row 13 h=129 n= 8 avgDiff= 30.0 diffs=14,29,52,54,16,16
+row 14 h=129 n= 8 avgDiff= 28.5 diffs=61,12,41,25,6,26
+row 15 h=145 n= 8 avgDiff= 11.0 diffs=7,46,3,3,3,3
+row 16 h=129 n= 8 avgDiff= 21.9 diffs=33,21,21,20,23,13
+row 17 h= 97 n= 8 avgDiff=  1.0 diffs=1,1,1,1,1,0
+row 18 h= 81 n= 8 avgDiff= 11.1 diffs=7,3,3,23,25,6
+row 19 h=129 n= 8 avgDiff=  8.1 diffs=4,2,15,1,27,0
+row 20 h=145 n= 8 avgDiff= 29.2 diffs=0,88,88,0,0,0
+row 21 h=113 n= 8 avgDiff= 23.7 diffs=20,82,19,18,3,2
+row 22 h= 81 n= 8 avgDiff=  6.1 diffs=4,3,5,6,4,15
+row 23 h=129 n= 8 avgDiff= 23.4 diffs=38,44,20,28,7,5
+row 24 h=113 n= 8 avgDiff= 17.4 diffs=0,0,0,0,52,52
+row 25 h=129 n= 8 avgDiff= 12.3 diffs=74,0,0,0,0,0
+row 26 h=129 n= 8 avgDiff= 15.8 diffs=25,20,14,10,23,3
+row 27 h=113 n= 8 avgDiff= 40.1 diffs=53,60,48,39,37,4
+row 28 h=129 n= 8 avgDiff= 12.9 diffs=3,2,29,2,28,13
+row 29 h=145 n= 8 avgDiff= 13.3 diffs=2,24,1,26,14,12
+row 30 h=145 n= 8 avgDiff=  5.5 diffs=3,3,21,2,3,2
+row 31 h=145 n= 8 avgDiff= 19.3 diffs=25,22,24,19,18,7
+row 32 h=129 n= 8 avgDiff= 19.3 diffs=16,22,17,9,26,25
+row 33 h=257 n= 8 avgDiff= 10.6 diffs=6,0,0,4,8,46
+row 34 h=257 n= 8 avgDiff= 23.5 diffs=24,33,36,28,12,8
+row 35 h=129 n= 8 avgDiff= 28.3 diffs=8,16,34,24,35,51
+row 36 h=129 n= 8 avgDiff= 14.7 diffs=8,11,4,20,21,23
+row 37 h=161 n= 8 avgDiff= 36.3 diffs=33,23,56,41,38,28
